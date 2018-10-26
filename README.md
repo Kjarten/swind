@@ -17,6 +17,19 @@ stylelint-config-primer
 ```
 --------------------------------------------------------------------------------------------------------------------------------------
 
+Keyra "sass":
+```
+> cd /slóð/á/verkefni
+> npm run sass
+```
+
+Keyra "lint":
+```
+> cd /slóð/á/verkefni
+> npm run lint
+```
+--------------------------------------------------------------------------------------------------------------------------------------
+
 Verkefnið felst í því að smíða vef eftir forskrift.
 
 Gefnar eru [fyrirmyndir](utlit/) í `500px`, `800px` og `1500px` með grind ásamt `1500px` án grindar og yfirliti yfir virkni vefs í `utlit/video.mp4`.
