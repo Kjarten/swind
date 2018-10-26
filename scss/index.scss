@@ -20,6 +20,12 @@
 
   .grid__col {
 
+    &--indent {
+      @media (max-width: $bpoint__narrow) {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
     &--full {
       @media (max-width: $bpoint__narrow) {
         padding-left: 0;
