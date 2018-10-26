@@ -37,6 +37,8 @@
     margin: 0 10px;
     display: flex;
     align-items: center;
+    height: 40px;
+    font-size: 0.75em;
 
     @media (max-width: $bpoint__slim) {
       margin: $slim__boxes 0;
