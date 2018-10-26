@@ -56,7 +56,7 @@ Keyra "lint":
 ```
 --------------------------------------------------------------------------------------------------------------------------------------
 ## Uppsetning á verkefni
-
+```
 > swind
    > efni - .txt skrár með texta fyrir .html skrár.
    > img - .jpg og .svg með myndum sem notast skal við í verkefninu.
@@ -81,7 +81,7 @@ Keyra "lint":
     > index.html - Forsíða
     > package.json - NPM scripts.
     > styles.scss - 
-
+```
 --------------------------------------------------------------------------------------------------------------------------------------
 ## Upplýsingar um "contributors" - Birt í stafsetningarröð
 
