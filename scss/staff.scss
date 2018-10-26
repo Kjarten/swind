@@ -1,23 +1,34 @@
 .staff {
-  margin-top: 1em;
-  margin-bottom: 2em;
+  margin: 1em auto 2em auto;
+  padding-left: 20px;
+  padding-right: 20px;
 
-  &__cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: $max-width;
-    margin: auto;
+  @media (min-width: $max-width) {
+    padding-left: 0;
+    padding-right: 0,
   }
 
-  &__card {
-    width: 50%;
-    position: relative;
+  .grid__row {
 
-    @media (max-width: $bpoint__narrow) {
-      width: 100%;
+    &--cards {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      max-width: $max-width;
     }
+  }
 
+  .grid__col {
+
+    &--card {
+      width: 50%;
+      position: relative;
+
+      @media (max-width: $bpoint__narrow) {
+        width: 100%;
+      }
+    }
+    
     &:hover {
 
       .staff__image {
@@ -51,7 +62,6 @@
     max-height: 100%;
     width: 100%;
     height: auto;
-    padding: 20px 10px 20px 0px;
     backface-visibility: hidden;
   }
 
