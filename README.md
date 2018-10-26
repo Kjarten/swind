@@ -55,6 +55,20 @@ Keyra "lint":
 > git init
 > git pull https://github.com/Kjarten/swind.git
 ```
+--------------------------------------------------------------------------------------------------------------------------------------
+##Upplýsingar um "contributors" - Birt í stafsetningarröð
+
+Guðrún Úlfarsdóttir (guu4@hi.is)
+Námsleið: Tölvunarfræði, BS
+
+Kjartan Þór Birgisson (kthb2@hi.is)
+Námsleið: Vélaverkfræði, MS
+
+Máni Bernharðsson (mab27@hi.is)
+Námsleið: Tölvunarfræði, BS
+
+--------------------------------------------------------------------------------------------------------------------------------------
+#Verklýsing frá Ólafi Sverri Kjartanssyni - Aðjunkt
 
 Verkefnið felst í því að smíða vef eftir forskrift.
 
