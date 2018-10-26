@@ -1,43 +1,47 @@
-.main {
+.section {
+  margin: 2em auto 2em auto;
+  max-width: $max-width;
 
-  .grid__row {
+  &__cards {
+    display: flex;
+    flex-direction: column;
+  }
 
-    &--reverse {
+  &__card {
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 10px;
 
-      @media (min-width: $bpoint__narrow) {
-        flex-direction: row-reverse;
-      }
-    }
-
-    &--full {
-
-      @media (max-width: $bpoint__narrow) {
-        margin-left: -20px;
-        margin-right: -20px;
-      }
+    @media (max-width: $bpoint__narrow) {
+      flex-direction: column;
     }
   }
 
-  .grid__col {
-
-    &--indent {
-      @media (max-width: $bpoint__narrow) {
-        padding-left: 20px;
-        padding-right: 20px;
-      }
+  &__card:nth-of-type(2) {
+    flex-direction: row-reverse;
+    @media (max-width: $bpoint__narrow) {
+      flex-direction: column;
     }
-    &--full {
-      @media (max-width: $bpoint__narrow) {
-        padding-left: 0;
-        padding-right: 0;
-      }
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 2em 10px 2em 10px;
+
+    @media (max-width: $bpoint__narrow) {
+      width: 100%;
+    }
+    @media (min-width: $bpoint__wide) {
+      margin-left: 0px;
     }
   }
 
   &__title {
     font-size: 36px;
     font-family: 'Oswald', Verdana, serif;
-    padding-top: 1em;
 
     @media (max-width: $bpoint__narrow) {
       font-size: 48px;
@@ -57,8 +61,12 @@
 
   &__image {
     display: flex;
-    flex: auto;
-    padding-top: 1em;
     max-width: 100%;
+    flex: auto;
+
+    @media (min-width: $bpoint__wide) {
+      margin-left: 0px;
+    }
   }
+
 }
