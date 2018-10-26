@@ -18,7 +18,6 @@
         flex-direction: column;
         justify-content: space-between;
         margin-bottom: $gutter;
-        height: 100%;
 
         @media (max-width: $bpoint__wide) {
             min-width: 40%;
