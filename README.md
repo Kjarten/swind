@@ -1,5 +1,5 @@
 
-# Hópverkefni 1
+# Hópverkefni 1 - swind
 
 ## Uppsetningar:
 
@@ -47,7 +47,13 @@ Keyra "lint":
 > git add .
 > git commit -m "verklýsing"
 > git push -u "nafn á grein"  - NOTE: Án gæsalappa.
+```
 
+"Pull":
+```
+> cd /slóð/á/verkefni
+> git init
+> git pull https://github.com/Kjarten/swind.git
 ```
 
 Verkefnið felst í því að smíða vef eftir forskrift.
