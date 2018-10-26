@@ -9,7 +9,7 @@ stylelint-config-primer
 
 Í terminal:
 ```
-> cd /*slóð á verkefni*
+> cd / _slóð á verkefni_
 > npm init
 ..*svara spurningum*
 > npm install --save-dev stylelint
