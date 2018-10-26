@@ -19,6 +19,10 @@ stylelint-config-primer
 ```
 --------------------------------------------------------------------------------------------------------------------------------------
 
+## Keyra tól:
+
+ATH! Keyra tól í terminal!
+
 Keyra "sass":
 ```
 > cd /slóð/á/verkefni
@@ -31,6 +35,20 @@ Keyra "lint":
 > npm run lint
 ```
 --------------------------------------------------------------------------------------------------------------------------------------
+
+## git:
+
+"Branching":
+```
+> cd /slóð/á/verkefni
+> git init
+> git checkout - b "nafn á grein"
+> git checkout - b "nafn á grein"
+> git add .
+> git commit -m "verklýsing"
+> git push -u "nafn á grein"  - NOTE: Án gæsalappa.
+
+```
 
 Verkefnið felst í því að smíða vef eftir forskrift.
 
