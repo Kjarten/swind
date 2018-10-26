@@ -16,6 +16,16 @@ stylelint-config-primer
 ...
 > npm install --save-dev stylelint-config-primer
 ```
+
+node-sass
+
+Í terminal:
+```
+> cd /*slóð á verkefni*
+> npm init
+..*svara spurningum*
+> npm install --save node-sass
+```
 --------------------------------------------------------------------------------------------------------------------------------------
 
 ## Keyra tól:
