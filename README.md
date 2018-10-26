@@ -55,6 +55,34 @@ Keyra "lint":
 > git pull https://github.com/Kjarten/swind.git
 ```
 --------------------------------------------------------------------------------------------------------------------------------------
+## Uppsetning á verkefni
+
+> swind
+  > efni - .txt skrár með texta fyrir .html skrár.
+  > img - .jpg og .svg með myndum sem notast skal við í verkefninu.
+  > node_modules - Ekki eiga við "Má ekki skafa".
+  > pages - .html skrár fyrir undirsíður
+   > cart.html - Undirsíða
+   > products.html - Undirsíða
+   > staff.html - Undirsíða
+  > scss - .scss skrár
+   > button.scss - "Stylesheet" fyrir takka.
+   > cart.scss - "Stylesheet" fyrir cart.html.
+   > config.scss - "Stylesheet" fyrir grunnstíla.
+   > footer.scss - "Stylesheet" fyrir fót, allar síður.
+   > header.scss - "Stylesheet" fyrir haus, allar síður.
+   > index.scss - "Stylesheet" fyrir forsíðu (indes.html).
+   > products.scss - "Stylesheet" fyrir products.html.
+   > staff.scss - "Stylesheet" fyrir staff.html.
+  > utlit - Mappa sem geymir skjáskot af fyrirmynd af útliti.
+  ...
+  > stylelintrc - Nauðsynlegt fyrir stylint, ekki eiga við "Má ekki skafa".
+  > grid.css - "Stylesheet" fyrir grid.
+  > index.html - Forsíða
+  > package.json - NPM scripts.
+  > styles.scss - 
+
+--------------------------------------------------------------------------------------------------------------------------------------
 ## Upplýsingar um "contributors" - Birt í stafsetningarröð
 
 Guðrún Úlfarsdóttir (guu4@hi.is)
