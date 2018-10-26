@@ -3,7 +3,6 @@
 
 ## Uppsetningar:
 
---------------------------------------------------------------------------------------------------------------------------------------
 node.js: https://nodejs.org/en/
 
 stylelint-config-primer
@@ -56,7 +55,7 @@ Keyra "lint":
 > git pull https://github.com/Kjarten/swind.git
 ```
 --------------------------------------------------------------------------------------------------------------------------------------
-##Upplýsingar um "contributors" - Birt í stafsetningarröð
+## Upplýsingar um "contributors" - Birt í stafsetningarröð
 
 Guðrún Úlfarsdóttir (guu4@hi.is)
 Námsleið: Tölvunarfræði, BS
@@ -68,7 +67,7 @@ Máni Bernharðsson (mab27@hi.is)
 Námsleið: Tölvunarfræði, BS
 
 --------------------------------------------------------------------------------------------------------------------------------------
-#Verklýsing frá Ólafi Sverri Kjartanssyni - Aðjunkt
+# Verklýsing frá Ólafi Sverri Kjartanssyni - Aðjunkt
 
 Verkefnið felst í því að smíða vef eftir forskrift.
 
