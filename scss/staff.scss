@@ -10,6 +10,8 @@
   }
 
   .grid__row {
+    margin-left: -10px;
+    margin-right: -10px;
 
     &--cards {
       display: flex;
@@ -23,6 +25,8 @@
     &--card {
       width: 50%;
       position: relative;
+      padding-left: 10px;
+      padding-right: 10px;
 
       @media (max-width: $bpoint__narrow) {
         width: 100%;
